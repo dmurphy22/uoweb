@@ -28,7 +28,7 @@ include_once 'inc/redis.php';
 $itemlist = $rd->get($key);
 
 if (!$itemlist) {
-	$url = 'http://uo.cx/api/v1/itemart/';
+	$url = 'http://http://stormy-spire-5535.herokuapp.com//api/v1/itemart/';
 
 	include_once 'inc/mongo.php';
 
